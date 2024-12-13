@@ -6,7 +6,7 @@ public class Main {
 
     public static String modifyTitleIntoClassName(String title) {
         if (title == null || title.isEmpty()) return "";
-        return "_" + title.replaceAll("\\s+|.\\s", "_");
+        return "_" + title.replaceAll("\\s+|\\.\\s", "_");
     }
 
 }
